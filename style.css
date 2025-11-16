@@ -3,6 +3,7 @@ body {
   background: white;
   margin: 0;
   padding: 0;
+  color: black; /* default text color */
 }
 
 header {
@@ -10,16 +11,18 @@ header {
   margin: 20px 0;
 }
 
+/* ONLY your name stays red */
 .title {
   font-family: "Parisienne", cursive;
   font-size: 55px;
-  color: #b30000;
+  color: #b30000; /* red */
   font-weight: 400;
 }
 
+/* Everything else becomes black */
 .exclusive {
   font-size: 18px;
-  color: #040303;
+  color: black;
   font-weight: bold;
   letter-spacing: 3px;
 }
@@ -31,7 +34,7 @@ header {
 }
 
 h2 {
-  color: #b30000;
+  color: black;
   text-align: center;
 }
 
@@ -44,15 +47,16 @@ h2 {
 input {
   flex: 1;
   padding: 10px;
-  border: 2px solid #b30000;
+  border: 2px solid black;
   border-radius: 8px;
+  color: black;
 }
 
 .full-btn {
   width: 100%;
   padding: 12px;
   margin-top: 5px;
-  background: #b30000;
+  background: black;
   color: white;
   border: none;
   border-radius: 8px;
@@ -60,7 +64,7 @@ input {
 }
 
 .full-btn:hover {
-  background: #800000;
+  background: #333;
 }
 
 ul {
@@ -69,30 +73,28 @@ ul {
 }
 
 .card {
-  background: #ffe6e6;
+  background: #f2f2f2;
   padding: 12px;
   border-radius: 10px;
   margin-bottom: 10px;
-  border-left: 6px solid #b30000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border-left: 6px solid black;
+  color: black;
 }
 
 .card.completed {
-  background: #ffcccc;
+  background: #d9d9d9;
   text-decoration: line-through;
-  color: #800000;
+  color: #555;
 }
 
 .small-text {
   font-size: 12px;
   margin-top: 4px;
-  color: #800000;
+  color: black;
 }
 
 .deleteBtn {
-  background: #ff1a1a;
+  background: #222;
   color: white;
   border: none;
   border-radius: 6px;
@@ -101,14 +103,16 @@ ul {
 }
 
 .deleteBtn:hover {
-  background: #cc0000;
+  background: #000;
 }
 
-/* Hearts at bottom */
+/* Hearts */
 .hearts-section {
   text-align: center;
   margin: 25px 0;
   font-size: 32px;
-  color: #b30000;
+  color: black;
   font-weight: bold;
 }
+
+
