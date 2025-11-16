@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exclusive To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Cursive Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Mutee ur Rahman</h1>
+    <p class="exclusive">EXCLUSIVE</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Goals Section -->
+    <section class="goals">
+      <h2>Goals</h2>
+
+      <div class="input-group">
+        <input id="goalInput" type="text" placeholder="Enter a goal..." />
+      </div>
+
+      <div class="input-group">
+        <input id="fromDate" type="date" />
+        <input id="toDate" type="date" />
+      </div>
+
+      <button id="addGoalBtn" class="full-btn">Add Goal</button>
+
+      <ul id="goalList"></ul>
+    </section>
+
+    <!-- Tasks Section -->
+    <section class="tasks">
+      <h2>Tasks</h2>
+
+      <div class="input-group">
+        <input id="taskInput" type="text" placeholder="Enter a task..." />
+      </div>
+
+      <div class="input-group">
+        <input id="punishmentInput" type="text" placeholder="Punishment if not done..." />
+      </div>
+
+      <button id="addTaskBtn" class="full-btn">Add Task</button>
+
+      <ul id="taskList"></ul>
+    </section>
+
+  </div>
+
+  <!-- Hearts at bottom -->
+  <div class="hearts-section">
+    <span id="heartsDisplay">❤️ 0</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
