@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.title {
+  font-family: "Parisienne", cursive;
+  font-size: 55px;
+  color: #b30000;
+  font-weight: 400;
+}
+
+.exclusive {
+  font-size: 18px;
+  color: #040303;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #b30000;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #b30000;
+  border-radius: 8px;
+}
+
+.full-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  background: #b30000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.full-btn:hover {
+  background: #800000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  background: #ffe6e6;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-left: 6px solid #b30000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card.completed {
+  background: #ffcccc;
+  text-decoration: line-through;
+  color: #800000;
+}
+
+.small-text {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #800000;
+}
+
+.deleteBtn {
+  background: #ff1a1a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: #cc0000;
+}
+
+/* Hearts at bottom */
+.hearts-section {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 32px;
+  color: #b30000;
+  font-weight: bold;
+}
